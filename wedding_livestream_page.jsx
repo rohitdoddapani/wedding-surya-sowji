@@ -226,6 +226,49 @@ export default function WeddingLivestreamPage() {
         </div>
       </section>
 
+      <section className="mx-auto max-w-6xl px-6 py-8">
+        <div className="mb-8 text-center">
+          <h2 className="text-2xl font-semibold md:text-3xl text-slate-800">Wedding Highlights & Reels</h2>
+        </div>
+        <div className="grid gap-6 md:grid-cols-3">
+          <div className="overflow-hidden rounded-[2rem] border border-slate-200 bg-slate-100 shadow-sm transition hover:-translate-y-1">
+            <div className="aspect-[9/16] w-full">
+              <iframe
+                className="h-full w-full"
+                src="https://player.vimeo.com/video/1179899067?title=0&byline=0&portrait=0&color=e11d48"
+                title="Wedding Reel"
+                allow="autoplay; fullscreen; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
+          </div>
+          
+          <div className="overflow-hidden rounded-[2rem] border border-slate-200 bg-slate-100 shadow-sm transition hover:-translate-y-1">
+            <div className="aspect-[9/16] w-full">
+              <iframe
+                className="h-full w-full"
+                src="https://player.vimeo.com/video/1179901176?title=0&byline=0&portrait=0&color=e11d48"
+                title="Bride Haldi"
+                allow="autoplay; fullscreen; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
+          </div>
+
+          <div className="overflow-hidden rounded-[2rem] border border-slate-200 bg-slate-100 shadow-sm transition hover:-translate-y-1">
+            <div className="aspect-[9/16] w-full">
+              <iframe
+                className="h-full w-full"
+                src="https://player.vimeo.com/video/1179901077?title=0&byline=0&portrait=0&color=e11d48"
+                title="Groom Haldi"
+                allow="autoplay; fullscreen; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="mx-auto max-w-6xl px-6 py-4">
         <div className="rounded-[2rem] border border-slate-200 bg-white p-6 shadow-sm md:p-8">
           <div className="grid gap-8 md:grid-cols-[1.1fr_0.9fr] md:items-center">
